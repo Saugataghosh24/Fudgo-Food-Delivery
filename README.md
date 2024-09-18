@@ -3,7 +3,7 @@
 **Fudgo** is a full-stack food delivery website developed using the MERN stack, offering an intuitive user experience for customers and a robust admin panel for managing food items and orders. The website allows users to browse food menus, place orders, track deliveries, and manage their cart. Admins can add new food items, view a list of existing items, and manage orders.
 
 **Logo**  
-   ![Logo](./screenshots/user-home.png)
+   ![logo](https://github.com/user-attachments/assets/05725ca2-6d81-4ee0-9487-cbbbe5698ce2)
    
 ---
 
@@ -65,36 +65,36 @@
 ### User Panel Screenshots
 
 1. **Home Page**  
-   ![Home Page](./screenshots/user-home.png)
+   ![Home](https://github.com/user-attachments/assets/6c6d9044-4b52-4629-8603-8f7a14de38f9)
 
 2. **Menu Section**  
-   ![Menu Section](./screenshots/user-menu.png)
+   ![Menu](https://github.com/user-attachments/assets/fa3348bf-ac6d-47ca-a18e-93aac7df911e)
 
 3. **Footer Section**  
-   ![Footer Section](./screenshots/user-menu.png)
+   ![Footer](https://github.com/user-attachments/assets/69b04325-4b80-416a-b8e9-90760641f0e2)
 
 4. **Signin Popup**  
-   ![Signin Popup](./screenshots/user-login.png)
-
+   ![Sign-in-popup](https://github.com/user-attachments/assets/701f068a-c8b4-44a6-b841-b4f6c2fabba5)
+   
 5. **Cart Page**  
-   ![Cart Page](./screenshots/user-cart.png)
+   ![Cart](https://github.com/user-attachments/assets/4f606bd7-e6fa-4043-843a-9c472c025396)
 
 6. **Place Order Page**  
-   ![Place Order Page](./screenshots/user-placeorder.png)
-
+   ![Place-order](https://github.com/user-attachments/assets/64f90156-a80b-4ad2-a26e-63f24cc8ab9d)
+   
 7. **My Orders Page**  
-   ![My Orders Page](./screenshots/user-myorders.png)
+   ![My-orders](https://github.com/user-attachments/assets/624acd2a-4827-4203-acd2-fd13ca7cca5b)
 
 ### Admin Panel Screenshots
 
 1. **Add Food Page**  
-   ![Add Food Page](./screenshots/admin-addfood.png)
-
+   ![Admin-add-items](https://github.com/user-attachments/assets/ef6a2775-ee5c-4b52-9473-598f83752f24)
+   
 2. **Food List Page**  
-   ![Food List Page](./screenshots/admin-foodlist.png)
+  ![Admin-items-list](https://github.com/user-attachments/assets/f7516bd7-9230-42d4-8a5b-08e4e04a4f46)
 
 3. **Orders Page**  
-   ![Orders Page](./screenshots/admin-orders.png)
+   ![Admin-orders](https://github.com/user-attachments/assets/ee980b9d-b8e5-44d9-a568-077a7a15f8d6)
 
 ---
 
