@@ -1,8 +1,7 @@
 # Fudgo - Food Delivery Website
 
 **Fudgo** is a full-stack food delivery website developed using the MERN stack, offering an intuitive user experience for customers and a robust admin panel for managing food items and orders. The website allows users to browse food menus, place orders, track deliveries, and manage their cart. Admins can add new food items, view a list of existing items, and manage orders.
-
-**Logo**  
+ 
    ![logo](https://github.com/user-attachments/assets/05725ca2-6d81-4ee0-9487-cbbbe5698ce2)
    
 ---
