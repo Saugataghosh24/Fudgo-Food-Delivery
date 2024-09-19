@@ -8,14 +8,14 @@
 
 ## Index
 
-1. [Features](#features)
+1. [Hosted Links](#hosted-links)
+2. [Features](#features)
    - [User Panel](#user-panel)
    - [Admin Panel](#admin-panel)
-2. [Technologies Used](#technologies-used)
-3. [Screenshots](#screenshots)
+3. [Technologies Used](#technologies-used)
+4. [Screenshots](#screenshots)
    - [User Panel](#user-panel-screenshots)
    - [Admin Panel](#admin-panel-screenshots)
-4. [Hosted Links](#hosted-links)
 5. [Installation and Setup](#installation-and-setup)
    - [Prerequisites](#prerequisites)
    - [Getting Started](#getting-started)
@@ -25,6 +25,13 @@
    - [Order Management](#order-management)
    - [Food Management (Admin)](#food-management-admin)
 7. [Deployment](#deployment)
+
+---
+
+## Hosted Links
+
+- **User Panel**: [User Panel Live](https://fudgo.onrender.com)  
+- **Admin Panel**: [Admin Panel Live](https://fudgo-admin.onrender.com)
 
 ---
 
@@ -94,13 +101,6 @@
 
 3. **Orders Page**  
    ![Admin-orders](https://github.com/user-attachments/assets/ee980b9d-b8e5-44d9-a568-077a7a15f8d6)
-
----
-
-## Hosted Links
-
-- **User Panel**: [User Panel Live](https://fudgo.onrender.com)  
-- **Admin Panel**: [Admin Panel Live](https://fudgo-admin.onrender.com)
 
 ---
 
