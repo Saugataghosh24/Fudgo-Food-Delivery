@@ -30,8 +30,8 @@
 
 ## Hosted Links
 
-- **Admin Panel**: [Admin Panel Live](https://fudgo-admin.onrender.com){:target="_blank"}
-- **User Panel**: [User Panel Live](https://fudgo.onrender.com){:target="_blank"}  
+- **Admin Panel**: [Admin Panel Live](https://fudgo-admin.onrender.com)
+- **User Panel**: [User Panel Live](https://fudgo.onrender.com)  
   
   **Note**: Open the Admin Panel first to use the features in User Panel.
 
