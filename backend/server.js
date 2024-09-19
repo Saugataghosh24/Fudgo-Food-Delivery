@@ -21,7 +21,7 @@ connectDB();
 
 // api endpoints
 app.use("/api/food", foodRouter)
-app.use("/images", express.static('uploads')) //uploads folder is exposed on the '/image' end point
+app.use("/images", express.static('https://github.com/Saugataghosh24/Fudgo-Food-Delivery/edit/main/backend/uploads')) //uploads folder is exposed on the '/image' end point
 app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
 app.use("/api/order", orderRouter)
