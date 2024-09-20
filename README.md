@@ -61,6 +61,7 @@
 - **Frontend**: Vite, React, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
+- **Cloud**: Cloudinary
 - **Authentication**: JSON Web Token (JWT)
 - **Password Encryption**: Bcryptjs
 - **HTTP Client**: Axios
