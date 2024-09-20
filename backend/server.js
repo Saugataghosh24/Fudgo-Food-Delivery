@@ -1,36 +1,38 @@
-import express from  'express'
-import cors from 'cors'
-import { connectDB } from './config/db.js'
-import foodRouter from './routes/foodRoute.js'
-import userRouter from './routes/userRoute.js'
-import 'dotenv/config'
-import carRouter from './routes/cartRoute.js'
-import orderRouter from './routes/orderRoute.js'
+import express from 'express';
+import cors from 'cors';
+import { connectDB } from './config/db.js';
+import foodRouter from './routes/foodRoute.js';
+import userRouter from './routes/userRoute.js';
+import 'dotenv/config';
+import cartRouter from './routes/cartRoute.js';
+import orderRouter from './routes/orderRoute.js';
+import path from 'path';
 
-
-// app config
-const app = express()
-const port= process.env.PORT || 4000;
+const app = express();
+const port = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use(cors());
 
 connectDB();
 
-// api endpoints
-app.use("/api/food", foodRouter)
-app.use("/images", express.static('uploads')) //uploads folder is exposed on the '/image' end point
-app.use("/api/user", userRouter)
-app.use("/api/cart", carRouter)
-app.use("/api/order", orderRouter)
+app.use("/api/food", foodRouter);
+app.use("/api/user", userRouter);
+app.use("/api/cart", cartRouter);
+app.use("/api/order", orderRouter);
 
+// Ensure uploads directory exists
+import fs from 'fs';
+if (!fs.existsSync('./uploads')){
+    fs.mkdirSync('./uploads');
+}
 
-app.get("/", (req,res)=>{
-    res.send("Hello")
-}) 
+app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')));
 
-app.listen(port,()=>{
-    console.log(`Server is running on http://localhost:${port}`)
-})
+app.get("/", (req, res) => {
+    res.send("Hello");
+});
 
-// mongodb+srv://SaugataGhosh:Saugata123@cluster0.3vjuh.mongodb.net/?
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
