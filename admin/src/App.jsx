@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Sidebar from './components/Sidebar/Sidebar'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useNavigate, useLocation } from 'react-router-dom'
 import List from './pages/List/List'
 import Add from './pages/Add/Add'
 import Orders from './pages/Orders/Orders'
@@ -11,6 +11,17 @@ import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
 
   const url= "http://localhost:4000"
+  // const url= "https://fudgo-backend.onrender.com"
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Redirect to Orders page only if the current route is '/'
+  useEffect(() => {
+    if (location.pathname === '/') {
+      navigate('/orders');
+    }
+  }, [location, navigate]);
+
 
   return (
     <div>

@@ -7,7 +7,8 @@ const foodSchema = new mongoose.Schema({
     description: {type:String, required:true},
     price: {type:Number, required:true},
     image: {type:String, required:true},
-    category: {type:String, required:true}
+    category: {type:String, required:true},
+    cloudinary_id: {type:String, required:true} // Adding Cloudinary id for remove food from cloudinary
 })
 
 // creating a foodModel using the schema
