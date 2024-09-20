@@ -11,17 +11,6 @@ import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
 
   const url= "http://localhost:4000"
-  // const url= "https://fudgo-backend.onrender.com"
-  const navigate = useNavigate();
-  const location = useLocation();
-
-  // Redirect to Orders page only if the current route is '/'
-  useEffect(() => {
-    if (location.pathname === '/') {
-      navigate('/orders');
-    }
-  }, [location, navigate]);
-
 
   return (
     <div>

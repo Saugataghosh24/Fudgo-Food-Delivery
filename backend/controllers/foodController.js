@@ -33,7 +33,7 @@ const listfood = async (req, res) => {
         res.json({ success: true, data: foods });
     } catch (error) {
         console.log(error);
-        res.json({ success: false, message: "Error" });
+        req.json({success:false, message:"Error"});
     }
 };
 
