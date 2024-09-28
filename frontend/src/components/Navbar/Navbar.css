@@ -3,6 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: fixed; /* Change from sticky to fixed */
+    top: 0; /* Ensure it sticks to the top */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensures it's above other elements */
+    background-color: white;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .logo{
