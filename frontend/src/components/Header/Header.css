@@ -4,6 +4,7 @@
     background: url("/header.jpg");
     background-size: cover;
     position: relative;
+    margin-top: 80px;
 }
 
 .header-content{
