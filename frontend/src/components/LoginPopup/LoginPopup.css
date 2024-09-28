@@ -5,6 +5,7 @@
     height: 100%;
     background-color: #00000090;
     display: grid;
+    padding-bottom: 100px;
 }
 
 .login-popup-container{
