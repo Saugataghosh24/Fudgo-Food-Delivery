@@ -6,6 +6,7 @@ import userRouter from './routes/userRoute.js';
 import 'dotenv/config';
 import cartRouter from './routes/cartRoute.js';
 import orderRouter from './routes/orderRoute.js';
+import adminRouter from './routes/adminRoute.js';
 import path from 'path';
 
 const app = express();
@@ -20,6 +21,7 @@ app.use("/api/food", foodRouter);
 app.use("/api/user", userRouter);
 app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
+app.use("/api/admin", adminRouter);
 
 // Ensure uploads directory exists
 import fs from 'fs';
