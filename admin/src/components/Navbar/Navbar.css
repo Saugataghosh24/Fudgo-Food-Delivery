@@ -11,3 +11,25 @@
     width: 40px;
     border-radius: 50%;
 }
+
+.login-btn {
+    background-color: #ff511a;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.login-btn:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+  
+.login-btn:focus {
+    outline: none;
+}
