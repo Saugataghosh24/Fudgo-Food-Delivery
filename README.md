@@ -50,6 +50,7 @@
 - **My Orders Page**: Track past orders and current delivery status.
 
 ### Admin Panel
+- **Login Page**: Login to the Admin account to use the features of admin panel.
 - **Add Food Page**: Add new food items to the database.
 - **Food List Page**: View and remove existing food items.
 - **Orders Page**: View and manage orders from customers.
@@ -96,13 +97,16 @@
 
 ### Admin Panel Screenshots
 
-1. **Add Food Page**  
+1. **Login Page**  
+   ![Admin-login](https://github.com/user-attachments/assets/de9323a2-94a1-48b5-b55e-bba963f86005)
+   
+2. **Add Food Page**  
    ![Admin-add-items](https://github.com/user-attachments/assets/ef6a2775-ee5c-4b52-9473-598f83752f24)
    
-2. **Food List Page**  
+3. **Food List Page**  
   ![Admin-items-list](https://github.com/user-attachments/assets/f7516bd7-9230-42d4-8a5b-08e4e04a4f46)
 
-3. **Orders Page**  
+4. **Orders Page**  
    ![Admin-orders](https://github.com/user-attachments/assets/ee980b9d-b8e5-44d9-a568-077a7a15f8d6)
 
 ---
@@ -146,9 +150,7 @@
 5. **Environment Variables**
    Create a `.env` file in the backend directory and add the following:
    ```env
-   MONGO_URI=your-mongodb-connection-string
    JWT_SECRET=your-jwt-secret
-   PORT=4000
    ```
 
 6. **Run the Backend**
@@ -194,6 +196,10 @@
 - **POST /api/order/userorders**: Get orders for the logged-in user.
 - **POST /api/order/list**: Listing orders for admin panel.
 - **GET /api/order/status**: Updating order status.
+
+### Admin Authentication
+
+- **POST /api/admin/login**: Admin Login.
 
 ### Food Management (Admin)
 
